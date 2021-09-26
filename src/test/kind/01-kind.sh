@@ -5,8 +5,7 @@ set -o errexit
 # ingress-nginx:
 # - helm chart 3.22.0
 # - controller v0.43.0: https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.43.0/deploy/static/provider/kind/deploy.yaml
-#ingressVersion=v0.43.0
-ingressVersion=0.33.0
+ingressVersion=v0.43.0
 
 # Based on https://sookocheff.com/post/kubernetes/local-kubernetes-development-with-kind/
 
